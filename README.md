@@ -1,5 +1,5 @@
 # AngularJS_Learning
 
 
-Codecademy AngularJS course Project
-Self Learning use
+Codecademy AngularJS course Project.
+Only self-learning use

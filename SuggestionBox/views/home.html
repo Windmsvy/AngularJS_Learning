@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class = "main">
+    <div class="suggestbox">
+        <h1>Suggestion Box</h1>
+        <hr>
+        <div class = "suggestionLine" ng-repeat="suggest in suggestions">
+            <h2>{{suggest.title}}</h2>
+            <p><span>{{suggest.upvotes}}</span> | <a href="/:Id/comment"> comment </a></p>
+            <hr>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
